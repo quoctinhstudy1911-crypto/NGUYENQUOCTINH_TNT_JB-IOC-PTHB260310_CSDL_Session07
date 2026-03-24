@@ -1,0 +1,12 @@
+# 1. Bỏ qua toàn bộ thư mục Resource
+Resource/
+
+# 2. Bỏ qua các file tạm của Microsoft Word 
+# (Khi bạn đang mở file Word, nó sẽ sinh ra các file ẩn có dấu ~$ ở đầu. Bạn không nên đưa các file này lên Git)
+~$*.docx
+~$*.doc
+*.tmp
+
+# 3. Bỏ qua các file rác/cache của hệ điều hành Windows
+Thumbs.db
+desktop.ini
